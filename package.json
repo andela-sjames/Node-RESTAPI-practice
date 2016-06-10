@@ -1,0 +1,25 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "demonstrating nodejs power",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-sjames/Node-RESTAPI-practice.git"
+  },
+  "author": "samuel james",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andela-sjames/Node-RESTAPI-practice/issues"
+  },
+  "homepage": "https://github.com/andela-sjames/Node-RESTAPI-practice#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.20"
+  }
+}
