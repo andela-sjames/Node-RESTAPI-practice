@@ -5,7 +5,7 @@ var Schema = mongoose.Schema;
 
 var BearSchema = new Schema({
     name: String,
-    date: { type: Date, default: Date.now },
+    date: { type: Date, default: Date.now }
 });
 
-module.export = mongoose.model('Bear', BearSchema);
+module.exports = mongoose.model('Bear', BearSchema);
